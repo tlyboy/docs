@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Guany",
+  "type": "module",
+  "scripts": {
+    "build": "vitepress build docs",
+    "dev": "vitepress dev docs",
+    "format": "prettier --write .",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.4",
+    "vitepress": "^1.0.2",
+    "vue": "^3.4.21"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": "20.x"
+  }
+}

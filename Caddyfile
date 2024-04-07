@@ -1,0 +1,10 @@
+:80 {
+  root * /app
+  encode gzip
+  file_server
+
+  handle_errors {
+    rewrite * /{err.status_code}.html
+    file_server
+  }
+}

@@ -1,0 +1,7 @@
+services:
+  docs:
+    build: .
+    restart: unless-stopped
+    # network_mode: host
+    ports:
+      - '80:80'
