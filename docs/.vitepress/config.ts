@@ -34,7 +34,7 @@ export default defineConfig({
         link: '/guide/getting-started',
       },
       {
-        text: '开发环境',
+        text: '开发',
         link: '/dev/windows',
       },
     ],
