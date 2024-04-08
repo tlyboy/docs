@@ -5,21 +5,21 @@ PowerShell
 ## 安装
 
 ```powershell
-winget install --id Starship.Starship
-winget install gerardog.gsudo
 Install-Module posh-git -Scope CurrentUser
 Install-Module git-aliases -Scope CurrentUser -AllowClobber
 Install-Module z -AllowClobber
+winget install --id Starship.Starship
+winget install gerardog.gsudo
 ```
 
 ## 使用说明
 
 ```powershell
-Invoke-Expression (&starship init powershell)
-
 Import-Module posh-git
 Import-Module git-aliases -DisableNameChecking
 Import-Module z
+
+Invoke-Expression (&starship init powershell)
 
 Set-Alias -Name la -Value Get-ChildItem
 
