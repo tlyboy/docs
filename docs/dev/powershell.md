@@ -15,6 +15,8 @@ winget install gerardog.gsudo
 ## 使用说明
 
 ```powershell
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+
 Import-Module posh-git
 Import-Module git-aliases -DisableNameChecking
 Import-Module z
