@@ -26,57 +26,68 @@ export default defineConfig({
     siteTitle: 'Guany 的文档',
     nav: [
       {
-        text: '首页',
-        link: '/',
-      },
-      {
         text: '指南',
         link: '/guide/getting-started',
       },
-      {
-        text: '开发',
-        link: '/dev/windows',
-      },
     ],
     sidebar: {
-      '/dev/': [
-        {
-          text: 'windows',
-          link: '/dev/windows',
-        },
-        {
-          text: 'terminal',
-          link: '/dev/terminal',
-        },
-        {
-          text: 'powershell',
-          link: '/dev/powershell',
-        },
-        {
-          text: 'vscode',
-          link: '/dev/vscode',
-        },
-        {
-          text: 'git',
-          link: '/dev/git',
-        },
-        {
-          text: 'ssh',
-          link: '/dev/ssh',
-        },
-        {
-          text: 'wsl',
-          link: '/dev/wsl',
-        },
-        {
-          text: 'linux',
-          link: '/dev/linux',
-        },
-        {
-          text: 'zsh',
-          link: '/dev/zsh',
-        },
-      ],
+      '/guide/': {
+        base: '/guide/',
+        items: [
+          {
+            text: '指南',
+            collapsed: false,
+            items: [
+              {
+                text: '简介',
+                link: 'getting-started',
+              },
+            ],
+          },
+          {
+            text: '环境',
+            collapsed: false,
+            items: [
+              {
+                text: 'windows',
+                link: 'windows',
+              },
+              {
+                text: 'terminal',
+                link: 'terminal',
+              },
+              {
+                text: 'powershell',
+                link: 'powershell',
+              },
+              {
+                text: 'vscode',
+                link: 'vscode',
+              },
+              {
+                text: 'git',
+                link: 'git',
+              },
+              {
+                text: 'ssh',
+                link: 'ssh',
+              },
+              {
+                text: 'wsl',
+                link: 'wsl',
+              },
+              {
+                text: 'linux',
+                link: 'linux',
+              },
+              {
+                text: 'zsh',
+                link: 'zsh',
+              },
+            ],
+          },
+        ],
+      },
     },
     outline: {
       label: '页面导航',

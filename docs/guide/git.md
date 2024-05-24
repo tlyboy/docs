@@ -33,3 +33,9 @@ git config --global user.email "youremail@domain.com"
 git config --global http.proxy "http://127.0.0.1:7890"
 git config --global https.proxy "http://127.0.0.1:7890"
 ```
+
+## 配置 lfs
+
+```sh
+git lfs install
+```
