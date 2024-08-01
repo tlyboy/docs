@@ -6,9 +6,21 @@ PowerShell
 
 ```powershell
 Install-Module posh-git -Scope CurrentUser
+```
+
+```powershell
 Install-Module git-aliases -Scope CurrentUser -AllowClobber
+```
+
+```powershell
 Install-Module z -AllowClobber
+```
+
+```powershell
 winget install --id Starship.Starship
+```
+
+```powershell
 winget install gerardog.gsudo
 ```
 

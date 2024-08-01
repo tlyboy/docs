@@ -6,13 +6,25 @@ Zsh
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
+```sh
 cd ~/.oh-my-zsh/plugins
+```
 
+```sh
 gcl https://github.com/zsh-users/zsh-autosuggestions.git
-gcl https://github.com/zsh-users/zsh-syntax-highlighting.git
-gcl https://github.com/agkozak/zsh-z.git
+```
 
+```sh
+gcl https://github.com/zsh-users/zsh-syntax-highlighting.git
+```
+
+```sh
+gcl https://github.com/agkozak/zsh-z.git
+```
+
+```sh
 curl -sS https://starship.rs/install.sh | sh
 ```
 
@@ -26,13 +38,19 @@ plugins=(
   zsh-syntax-highlighting
   zsh-z
 )
+```
 
+```sh
 eval "$(starship init zsh)"
+```
 
+```sh
 function i() {
   cd ~/i/$1
 }
+```
 
+```sh
 alias nio="ni --prefer-offline"
 alias s="nr start"
 alias d="nr dev"
