@@ -24,14 +24,10 @@ git config --global init.defaultBranch main
 
 ```sh
 git config --global user.name "Your Name"
-git config --global user.email "youremail@domain.com"
 ```
 
-## 配置代理
-
 ```sh
-git config --global http.proxy "http://127.0.0.1:7890"
-git config --global https.proxy "http://127.0.0.1:7890"
+git config --global user.email "youremail@domain.com"
 ```
 
 ## 配置 lfs

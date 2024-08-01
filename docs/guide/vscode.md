@@ -35,6 +35,9 @@ VS Code
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
   "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "files.eol": "\n",
