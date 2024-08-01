@@ -6,5 +6,8 @@ Windows
 
 ```powershell
 setx http_proxy "http://127.0.0.1:7890"
+```
+
+```powershell
 setx https_proxy "http://127.0.0.1:7890"
 ```
