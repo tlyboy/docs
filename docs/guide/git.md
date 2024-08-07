@@ -8,7 +8,15 @@ Git
 git config --global core.autocrlf false
 ```
 
-## 配置 credential helper 为 store
+## 配置 credential helper
+
+### WSL
+
+```sh
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
+```
+
+### Linux
 
 ```sh
 git config --global credential.helper store
