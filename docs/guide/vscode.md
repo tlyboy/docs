@@ -1,6 +1,6 @@
 # vscode
 
-VS Code
+VSCode
 
 ## settings.json
 

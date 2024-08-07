@@ -25,6 +25,10 @@ gcl https://github.com/agkozak/zsh-z.git
 ```
 
 ```sh
+cd ~
+```
+
+```sh
 curl -sS https://starship.rs/install.sh | sh
 ```
 

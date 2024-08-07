@@ -1,4 +1,4 @@
-# terminal
+# windows-terminal
 
 Windows Terminal
 

@@ -1,6 +1,6 @@
 # wsl
 
-适用于 Linux 的 Windows 子系统
+WSL
 
 ## 配置代理
 

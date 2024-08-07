@@ -31,20 +31,6 @@ ssh -T git@github.com
 
 ## 配置代理
 
-### Windows
-
 ```
-ProxyCommand "C:\Program Files\Git\mingw64\bin\connect.exe" -S 127.0.0.1:7890 %h %p
-```
-
-### MacOS
-
-```
-ProxyCommand connect -S 127.0.0.1:7890 %h %p
-```
-
-### Linux
-
-```
-ProxyCommand connect -S 127.0.0.1:7890 %h %p
+ProxyCommand nc -X 5 -x 127.0.0.1:7890 %h %p
 ```

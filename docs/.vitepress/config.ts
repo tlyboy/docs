@@ -49,16 +49,32 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
+                text: 'macos',
+                link: 'macos',
+              },
+              {
                 text: 'windows',
                 link: 'windows',
               },
               {
-                text: 'terminal',
-                link: 'terminal',
+                text: 'wsl',
+                link: 'wsl',
+              },
+              {
+                text: 'linux',
+                link: 'linux',
+              },
+              {
+                text: 'windows-terminal',
+                link: 'windows-terminal',
               },
               {
                 text: 'powershell',
                 link: 'powershell',
+              },
+              {
+                text: 'zsh',
+                link: 'zsh',
               },
               {
                 text: 'vscode',
@@ -71,18 +87,6 @@ export default defineConfig({
               {
                 text: 'ssh',
                 link: 'ssh',
-              },
-              {
-                text: 'wsl',
-                link: 'wsl',
-              },
-              {
-                text: 'linux',
-                link: 'linux',
-              },
-              {
-                text: 'zsh',
-                link: 'zsh',
               },
             ],
           },
