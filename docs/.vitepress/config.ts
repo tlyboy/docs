@@ -13,6 +13,7 @@ export default defineConfig({
     ],
   ],
   lang: 'zh-CN',
+  cleanUrls: true,
   lastUpdated: true,
   markdown: {
     theme: {
