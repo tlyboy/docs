@@ -43,3 +43,7 @@ git config --global user.email "youremail@domain.com"
 ```sh
 git lfs install
 ```
+
+## config
+
+[⚙︎ Guany Git config](https://github.com/tlyboy/config/blob/main/.gitconfig)

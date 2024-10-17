@@ -28,15 +28,23 @@ winget install gerardog.gsudo
 
 ```powershell
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+```
 
+```powershell
 Import-Module posh-git
 Import-Module git-aliases -DisableNameChecking
 Import-Module z
+```
 
+```powershell
 Invoke-Expression (&starship init powershell)
+```
 
+```powershell
 Set-Alias -Name la -Value Get-ChildItem
+```
 
+```powershell
 function i {
     param (
         [string]$DirectoryName
@@ -44,9 +52,13 @@ function i {
 
     Set-Location -Path "~\i\$DirectoryName"
 }
+```
 
+```powershell
 Remove-Item Alias:ni -Force -ErrorAction Ignore
+```
 
+```powershell
 function nio {
     ni --prefer-offline
 }
@@ -107,3 +119,7 @@ function re {
     nr release
 }
 ```
+
+## powershell-profile
+
+[⚙︎ Guany Powershell profile](https://github.com/tlyboy/powershell-profile/)

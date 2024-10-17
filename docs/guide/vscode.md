@@ -130,4 +130,4 @@ VS Code
 
 ## vscode-profile
 
-[⚙︎ Guany VS Code profile](https://github.com/tlyboy/vscode-profile/archive/refs/heads/main.zip)
+[⚙︎ Guany VS Code profile](https://github.com/tlyboy/vscode-profile/)
