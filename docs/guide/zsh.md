@@ -71,3 +71,7 @@ alias lintf="nr lint --fix"
 alias release="nr release"
 alias re="nr release"
 ```
+
+## config
+
+[⚙︎ Guany config](https://github.com/tlyboy/config)
