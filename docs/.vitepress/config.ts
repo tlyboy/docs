@@ -108,7 +108,7 @@ export default defineConfig({
       copyright: '版权所有 © 2023-present Guany',
     },
     editLink: {
-      pattern: 'https://github.com/tlyboy/docs/edit/main/src/:path',
+      pattern: 'https://github.com/tlyboy/docs/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面',
     },
     lastUpdated: {
