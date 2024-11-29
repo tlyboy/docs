@@ -2,6 +2,12 @@
 
 Git
 
+## 配置关闭忽略文件大小写
+
+```sh
+git config --global core.ignorecase false
+```
+
 ## 配置关闭自动转换 CRLF 行尾
 
 ```sh
