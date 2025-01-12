@@ -7,20 +7,22 @@ VS Code
 ```json
 {
   "[bat]": {
+    "editor.tabSize": 4,
     "files.encoding": "gbk"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.tabSize": 4
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "[go]": {
     "editor.defaultFormatter": "golang.go",
-    "editor.tabSize": 4
-  },
-  "[python]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.ruff": "explicit"
-    },
-    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.tabSize": 4
   },
   "[rust]": {
@@ -33,6 +35,7 @@ VS Code
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
+  "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.guides.bracketPairs": "active",
   "editor.linkedEditing": true,
   "editor.quickSuggestions": {
@@ -41,6 +44,12 @@ VS Code
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "manifest.json": "jsonc",
+    "pages.json": "jsonc"
+  },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
@@ -52,6 +61,7 @@ VS Code
     "scminput": false
   },
   "gitlens.graph.layout": "editor",
+  "liveServer.settings.donotShowInfoMsg": true,
   "security.workspace.trust.enabled": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
@@ -67,64 +77,6 @@ VS Code
   "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.startupEditor": "none"
-}
-```
-
-## extensions.json
-
-```json
-{
-  "recommendations": [
-    "ms-python.black-formatter",
-    "antfu.icons-carbon",
-    "ms-ceintl.vscode-language-pack-zh-hans",
-    "naumovs.color-highlight",
-    "denoland.vscode-deno",
-    "ms-vscode-remote.remote-containers",
-    "ms-azuretools.vscode-docker",
-    "editorconfig.editorconfig",
-    "usernamehw.errorlens",
-    "tobermory.es6-string-html",
-    "dbaeumer.vscode-eslint",
-    "file-icons.file-icons",
-    "mhutchie.git-graph",
-    "github.copilot",
-    "github.copilot-chat",
-    "codezombiech.gitignore",
-    "eamodio.gitlens",
-    "golang.go",
-    "antfu.goto-alias",
-    "antfu.iconify",
-    "ritwickdey.liveserver",
-    "techer.open-in-browser",
-    "esbenp.prettier-vscode",
-    "ms-python.vscode-pylance",
-    "ms-python.python",
-    "ms-python.debugpy",
-    "ms-vscode-remote.remote-ssh",
-    "ms-vscode-remote.remote-ssh-edit",
-    "ms-vscode.remote-server",
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    "ms-vscode.remote-explorer",
-    "charliermarsh.ruff",
-    "rust-lang.rust-analyzer",
-    "wenfangdu.snippet-generator",
-    "richie5um2.vscode-sort-json",
-    "unional.vscode-sort-package-json",
-    "mpontus.tab-cycle",
-    "bradlc.vscode-tailwindcss",
-    "tauri-apps.tauri-vscode",
-    "uni-helper.uni-app-schemas-vscode",
-    "uni-helper.uni-app-snippets-vscode",
-    "uni-helper.uni-cloud-snippets-vscode",
-    "uni-helper.uni-helper-vscode",
-    "uni-helper.uni-highlight-vscode",
-    "uni-helper.uni-ui-snippets-vscode",
-    "antfu.theme-vitesse",
-    "vue.volar",
-    "ms-vscode-remote.remote-wsl",
-    "antfu.unocss"
-  ]
 }
 ```
 
