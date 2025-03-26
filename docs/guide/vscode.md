@@ -25,6 +25,13 @@ VS Code
     "editor.defaultFormatter": "golang.go",
     "editor.tabSize": 4
   },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4
+  },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.tabSize": 4
@@ -43,7 +50,6 @@ VS Code
   },
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
-  "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
     "*.css": "tailwindcss",
@@ -54,12 +60,7 @@ VS Code
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
   "files.trimTrailingWhitespace": true,
-  "github.copilot.enable": {
-    "*": true,
-    "markdown": true,
-    "plaintext": false,
-    "scminput": false
-  },
+  "git.openRepositoryInParentFolders": "always",
   "gitlens.graph.layout": "editor",
   "liveServer.settings.donotShowInfoMsg": true,
   "security.workspace.trust.enabled": false,
@@ -70,6 +71,7 @@ VS Code
   "window.autoDetectColorScheme": true,
   "window.dialogStyle": "custom",
   "window.nativeTabs": true,
+  "workbench.activityBar.orientation": "vertical",
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.iconTheme": "file-icons",
   "workbench.list.smoothScrolling": true,
