@@ -1,6 +1,6 @@
-# vscode
+# cursor
 
-VS Code
+Cursor
 
 ## settings.json
 
@@ -9,14 +9,6 @@ VS Code
   "[bat]": {
     "editor.tabSize": 4,
     "files.encoding": "gbk"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
-    "editor.tabSize": 4
-  },
-  "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp",
-    "editor.tabSize": 4
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
@@ -82,6 +74,6 @@ VS Code
 }
 ```
 
-## vscode-profile
+## cursor-profile
 
-[⚙︎ Guany VS Code profile](https://github.com/tlyboy/vscode-profile/)
+[⚙︎ Guany Cursor profile](https://github.com/tlyboy/cursor-profile/)
