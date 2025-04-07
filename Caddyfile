@@ -1,6 +1,6 @@
 :80 {
   root * /app
-  encode gzip
+  encode
   try_files {path} {path}.html {path}/ =404
   file_server
 
