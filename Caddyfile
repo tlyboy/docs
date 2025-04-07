@@ -1,6 +1,7 @@
 :80 {
   root * /app
   encode gzip
+  try_files {path} {path}.html {path}/ =404
   file_server
 
   handle_errors {
