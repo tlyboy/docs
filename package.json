@@ -14,7 +14,7 @@
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
     "vitepress": "^1.6.3",
-    "vue": "^3.5.14"
+    "vue": "^3.5.15"
   },
   "packageManager": "pnpm@10.11.0",
   "engines": {
