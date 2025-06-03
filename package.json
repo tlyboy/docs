@@ -20,7 +20,9 @@
   "engines": {
     "node": "22.x"
   },
-  "overrides": {
-    "vite": "npm:rolldown-vite@latest"
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@latest"
+    }
   }
 }
