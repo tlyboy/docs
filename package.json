@@ -11,12 +11,12 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "typescript": "^5.8.3",
     "vitepress": "^1.6.3",
-    "vue": "^3.5.16"
+    "vue": "^3.5.17"
   },
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.2",
   "engines": {
     "node": "22.x"
   },
