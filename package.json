@@ -11,18 +11,13 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "prettier": "^3.6.0",
+    "prettier": "^3.6.2",
     "typescript": "^5.8.3",
     "vitepress": "^1.6.3",
     "vue": "^3.5.17"
   },
-  "packageManager": "pnpm@10.12.2",
+  "packageManager": "pnpm@10.12.4",
   "engines": {
     "node": "22.x"
-  },
-  "pnpm": {
-    "overrides": {
-      "vite": "npm:rolldown-vite@latest"
-    }
   }
 }
