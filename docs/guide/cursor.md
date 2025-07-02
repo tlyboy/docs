@@ -11,7 +11,7 @@ Cursor
     "files.encoding": "gbk"
   },
   "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
   },
   "[go]": {
     "editor.defaultFormatter": "golang.go",
@@ -60,6 +60,7 @@ Cursor
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.smoothScrolling": true,
+  "where-am-i.colorful": false,
   "window.autoDetectColorScheme": true,
   "window.dialogStyle": "custom",
   "window.nativeTabs": true,
