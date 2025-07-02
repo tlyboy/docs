@@ -5,10 +5,18 @@ SSH
 ## 生成新的 SSH 密钥
 
 ```sh
-ssh-keygen -t ed25519
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 ## 查看 SSH 密钥
+
+zsh
+
+```sh
+cat ~/.ssh/id_ed25519.pub
+```
+
+powershell
 
 ```sh
 cat ~\.ssh\id_ed25519.pub
