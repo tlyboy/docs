@@ -78,8 +78,8 @@ export default defineConfig({
                 link: 'zsh',
               },
               {
-                text: 'cursor',
-                link: 'cursor',
+                text: 'vscode',
+                link: 'vscode',
               },
               {
                 text: 'git',

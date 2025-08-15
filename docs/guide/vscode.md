@@ -1,6 +1,6 @@
-# cursor
+# vscode
 
-Cursor
+VS Code
 
 ## settings.json
 
@@ -28,7 +28,6 @@ Cursor
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.tabSize": 4
   },
-  "cursor.cpp.disabledLanguages": ["plaintext"],
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'FiraCode Nerd Font', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
@@ -65,7 +64,6 @@ Cursor
   "window.autoDetectColorScheme": true,
   "window.dialogStyle": "custom",
   "window.nativeTabs": true,
-  "workbench.activityBar.orientation": "vertical",
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.iconTheme": "file-icons",
   "workbench.list.smoothScrolling": true,
@@ -76,6 +74,6 @@ Cursor
 }
 ```
 
-## cursor-profile
+## vscode-profile
 
-[⚙︎ Guany Cursor profile](https://github.com/tlyboy/cursor-profile/)
+[⚙︎ Guany VS Code profile](https://github.com/tlyboy/vscode-profile/)
