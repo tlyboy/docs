@@ -74,6 +74,10 @@ export default defineConfig({
                 link: 'powershell',
               },
               {
+                text: 'warp',
+                link: 'warp',
+              },
+              {
                 text: 'zsh',
                 link: 'zsh',
               },
@@ -88,6 +92,14 @@ export default defineConfig({
               {
                 text: 'ssh',
                 link: 'ssh',
+              },
+              {
+                text: 'fnm',
+                link: 'fnm',
+              },
+              {
+                text: 'ni',
+                link: 'ni',
               },
             ],
           },
