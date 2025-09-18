@@ -17,9 +17,8 @@ fnm env --use-on-cd --version-file-strategy=recursive --corepack-enabled --resol
 ### MacOS/Linux
 
 ```sh
-FNM_PATH="/Users/tly/Library/Application Support/fnm"
+FNM_PATH="/opt/homebrew/opt/fnm/bin"
 if [ -d "$FNM_PATH" ]; then
-  export PATH="/Users/tly/Library/Application Support/fnm:$PATH"
   eval "`fnm env`"
 fi
 ```
