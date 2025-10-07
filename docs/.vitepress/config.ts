@@ -66,6 +66,10 @@ export default defineConfig({
                 link: 'linux',
               },
               {
+                text: 'ubuntu',
+                link: 'ubuntu',
+              },
+              {
                 text: 'windows-terminal',
                 link: 'windows-terminal',
               },
@@ -92,6 +96,10 @@ export default defineConfig({
               {
                 text: 'ssh',
                 link: 'ssh',
+              },
+              {
+                text: 'docker',
+                link: 'docker',
               },
               {
                 text: 'fnm',
