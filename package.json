@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "prettier": "^3.6.2",
-    "typescript": "^5.8.3",
-    "vitepress": "^1.6.3",
-    "vue": "^3.5.17"
+    "typescript": "^5.9.3",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.22"
   },
   "engines": {
     "node": "22.x"
