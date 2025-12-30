@@ -9,5 +9,5 @@ Warp
 ## 重置命令历史记录
 
 ```sh
-rm ~/Library/Application\ Support/dev.warp.Warp-Stable/warp.sqlite*
+rm -r "$HOME/Library/Group Containers/2BBY89MBSN.dev.warp/Library/Application Support/dev.warp.Warp-Stable/warp.sqlite"
 ```

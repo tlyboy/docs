@@ -109,6 +109,10 @@ export default defineConfig({
                 text: 'ni',
                 link: 'ni',
               },
+              {
+                text: 'claude-code',
+                link: 'claude-code',
+              },
             ],
           },
         ],
