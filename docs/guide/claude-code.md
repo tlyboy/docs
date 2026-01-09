@@ -2,14 +2,6 @@
 
 Claude Code
 
-## Memory
-
-通过 `CLAUDE.md` 文件配置指令偏好：
-
-```md
-- Always respond in Chinese-simplified
-```
-
 ## Settings
 
 配置文件位于 `~/.claude/settings.json`：
@@ -19,7 +11,12 @@ Claude Code
   "attribution": {
     "commit": "",
     "pr": ""
-  }
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true,
+    "context7@claude-plugins-official": true
+  },
+  "language": "chinese"
 }
 ```
 
