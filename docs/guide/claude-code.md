@@ -47,14 +47,16 @@ claude() {
 ```
 
 ```powershell [PowerShell]
-function Invoke-Claude {
-    $baseArgs = "--allow-dangerously-skip-permissions", "--permission-mode", "plan"
-    & claude @baseArgs -c @args 2>$null
+function claude {
+    $baseArgs = @("--allow-dangerously-skip-permissions", "--permission-mode", "plan")
+    $claudePath = (Get-Command claude -CommandType Application).Source
+
+    & $claudePath @baseArgs -c @args 2>$null
+
     if ($LASTEXITCODE -ne 0) {
-        & claude @baseArgs @args
+        & $claudePath @baseArgs @args
     }
 }
-Set-Alias -Name claude -Value Invoke-Claude
 ```
 
 :::
