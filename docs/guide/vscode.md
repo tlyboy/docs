@@ -6,64 +6,39 @@ VS Code
 
 ```json
 {
-  "[bat]": {
-    "editor.tabSize": 4,
-    "files.encoding": "gbk"
-  },
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
-  },
-  "[go]": {
-    "editor.defaultFormatter": "golang.go",
-    "editor.tabSize": 4
-  },
-  "[python]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.ruff": "explicit"
-    },
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.tabSize": 4
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    "editor.tabSize": 4
-  },
+  "claudeCode.useTerminal": true,
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'FiraCode Nerd Font', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
-  "editor.formatOnSave": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.guides.bracketPairs": "active",
-  "editor.linkedEditing": true,
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
   "editor.smoothScrolling": true,
-  "editor.tabSize": 2,
   "extensions.ignoreRecommendations": true,
-  "files.associations": {
-    "*.css": "tailwindcss",
-    "manifest.json": "jsonc",
-    "pages.json": "jsonc"
+  "files.readonlyInclude": {
+    "**/.cargo/git/checkouts/**/*.rs": true,
+    "**/.cargo/registry/src/**/*.rs": true,
+    "**/lib/rustlib/src/rust/library/**/*.rs": true
   },
-  "files.eol": "\n",
-  "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
-  "files.trimTrailingWhitespace": true,
   "git.openRepositoryInParentFolders": "always",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "gitlens.graph.layout": "editor",
+  "i18n-ally.displayLanguage": "zn",
   "liveServer.settings.donotShowInfoMsg": true,
+  "rust-analyzer.checkOnSave": false,
   "security.workspace.trust.enabled": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.smoothScrolling": true,
+  "typescript.experimental.useTsgo": true,
   "where-am-i.colorful": false,
   "window.autoDetectColorScheme": true,
   "window.dialogStyle": "custom",
   "window.nativeTabs": true,
+  "workbench.activityBar.orientation": "vertical",
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.iconTheme": "file-icons",
   "workbench.list.smoothScrolling": true,

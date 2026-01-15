@@ -31,3 +31,30 @@ claude -c
 # 跳过权限确认
 claude --dangerously-skip-permissions
 ```
+
+### Shell 函数
+
+优先尝试继续上次对话，失败则新建对话：
+
+::: code-group
+
+```zsh [Zsh]
+claude() {
+  local base_args="--allow-dangerously-skip-permissions --permission-mode plan"
+
+  command claude ${=base_args} -c "$@" 2>/dev/null || command claude ${=base_args} "$@"
+}
+```
+
+```powershell [PowerShell]
+function Invoke-Claude {
+    $baseArgs = "--allow-dangerously-skip-permissions", "--permission-mode", "plan"
+    & claude @baseArgs -c @args 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        & claude @baseArgs @args
+    }
+}
+Set-Alias -Name claude -Value Invoke-Claude
+```
+
+:::
