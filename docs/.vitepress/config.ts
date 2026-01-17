@@ -54,14 +54,6 @@ export default defineConfig({
                 link: 'macos',
               },
               {
-                text: 'windows',
-                link: 'windows',
-              },
-              {
-                text: 'wsl',
-                link: 'wsl',
-              },
-              {
                 text: 'linux',
                 link: 'linux',
               },
@@ -70,12 +62,28 @@ export default defineConfig({
                 link: 'ubuntu',
               },
               {
-                text: 'powershell',
-                link: 'powershell',
+                text: 'windows',
+                link: 'windows',
+              },
+              {
+                text: 'wsl',
+                link: 'wsl',
               },
               {
                 text: 'zsh',
                 link: 'zsh',
+              },
+              {
+                text: 'powershell',
+                link: 'powershell',
+              },
+              {
+                text: 'warp',
+                link: 'warp',
+              },
+              {
+                text: 'windows-terminal',
+                link: 'windows-terminal',
               },
               {
                 text: 'vscode',
@@ -88,18 +96,6 @@ export default defineConfig({
               {
                 text: 'ssh',
                 link: 'ssh',
-              },
-              {
-                text: 'windows-terminal',
-                link: 'windows-terminal',
-              },
-              {
-                text: 'warp',
-                link: 'warp',
-              },
-              {
-                text: 'fastfetch',
-                link: 'fastfetch',
               },
               {
                 text: 'docker',
@@ -116,6 +112,10 @@ export default defineConfig({
               {
                 text: 'claude-code',
                 link: 'claude-code',
+              },
+              {
+                text: 'fastfetch',
+                link: 'fastfetch',
               },
             ],
           },
