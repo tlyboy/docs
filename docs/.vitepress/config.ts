@@ -70,16 +70,8 @@ export default defineConfig({
                 link: 'ubuntu',
               },
               {
-                text: 'windows-terminal',
-                link: 'windows-terminal',
-              },
-              {
                 text: 'powershell',
                 link: 'powershell',
-              },
-              {
-                text: 'warp',
-                link: 'warp',
               },
               {
                 text: 'zsh',
@@ -96,6 +88,14 @@ export default defineConfig({
               {
                 text: 'ssh',
                 link: 'ssh',
+              },
+              {
+                text: 'windows-terminal',
+                link: 'windows-terminal',
+              },
+              {
+                text: 'warp',
+                link: 'warp',
               },
               {
                 text: 'fastfetch',
