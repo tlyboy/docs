@@ -98,6 +98,10 @@ export default defineConfig({
                 link: 'ssh',
               },
               {
+                text: 'fastfetch',
+                link: 'fastfetch',
+              },
+              {
                 text: 'docker',
                 link: 'docker',
               },
