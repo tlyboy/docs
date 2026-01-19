@@ -117,6 +117,10 @@ export default defineConfig({
                 text: 'fastfetch',
                 link: 'fastfetch',
               },
+              {
+                text: 'raycast',
+                link: 'raycast',
+              },
             ],
           },
         ],
