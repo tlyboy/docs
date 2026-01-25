@@ -10,16 +10,16 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ## 查看 SSH 密钥
 
-zsh
+### macOS / Linux
 
 ```sh
 cat ~/.ssh/id_ed25519.pub
 ```
 
-powershell
+### Windows (PowerShell)
 
-```sh
-cat ~\.ssh\id_ed25519.pub
+```powershell
+cat $HOME\.ssh\id_ed25519.pub
 ```
 
 ## 配置 GitHub 在 HTTPS 端口使用 SSH
@@ -45,10 +45,27 @@ ProxyCommand nc -X 5 -x 127.0.0.1:7890 %h %p
 
 ## SSH Agent 密钥管理
 
+### Windows 启动 ssh-agent 服务
+
+Windows 需要先启动 ssh-agent 服务才能使用：
+
+```powershell
+Set-Service -Name ssh-agent -StartupType Automatic
+Start-Service ssh-agent
+```
+
 ### 添加密钥到 SSH Agent
+
+macOS / Linux：
 
 ```sh
 ssh-add ~/.ssh/id_ed25519
+```
+
+Windows (PowerShell)：
+
+```powershell
+ssh-add $HOME\.ssh\id_ed25519
 ```
 
 ### 查看已添加的密钥列表
@@ -61,8 +78,16 @@ ssh-add -l
 
 移除指定密钥：
 
+macOS / Linux：
+
 ```sh
 ssh-add -d ~/.ssh/id_ed25519
+```
+
+Windows (PowerShell)：
+
+```powershell
+ssh-add -d $HOME\.ssh\id_ed25519
 ```
 
 移除所有密钥：

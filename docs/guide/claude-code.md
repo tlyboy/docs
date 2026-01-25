@@ -4,7 +4,10 @@ Claude Code
 
 ## Settings
 
-配置文件位于 `~/.claude/settings.json`：
+配置文件位置：
+
+- macOS / Linux: `~/.claude/settings.json`
+- Windows: `$HOME\.claude\settings.json`
 
 ```json
 {
