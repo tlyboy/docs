@@ -42,3 +42,31 @@ ssh -T git@github.com
 ```
 ProxyCommand nc -X 5 -x 127.0.0.1:7890 %h %p
 ```
+
+## SSH Agent 密钥管理
+
+### 添加密钥到 SSH Agent
+
+```sh
+ssh-add ~/.ssh/id_ed25519
+```
+
+### 查看已添加的密钥列表
+
+```sh
+ssh-add -l
+```
+
+### 从 SSH Agent 移除密钥
+
+移除指定密钥：
+
+```sh
+ssh-add -d ~/.ssh/id_ed25519
+```
+
+移除所有密钥：
+
+```sh
+ssh-add -D
+```
