@@ -121,6 +121,10 @@ export default defineConfig({
                 text: 'raycast',
                 link: 'raycast',
               },
+              {
+                text: 'zerotier',
+                link: 'zerotier',
+              },
             ],
           },
         ],
